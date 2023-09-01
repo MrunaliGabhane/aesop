@@ -1,0 +1,155 @@
+/* src/components/TopImage.module.css */
+.topImage {
+    position: relative;
+    max-height: 900px;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+    margin-top: -270px;
+    /* Add margin to the top of the left text */
+    padding-left: 80px;
+
+}
+
+.left h1 {
+    font-size: 3rem;
+    margin: 0;
+    /* Reset margin for h1 */
+}
+
+.right {
+    flex: 2;
+    text-align: left;
+    padding: 20px;
+}
+
+.right p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    /* Add margin to the top and bottom of the paragraph */
+}
+
+.right h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    /* Add margin to the top and bottom of h1 */
+}
+
+.button {
+    width: 300px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 17px 20px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 20px 0;
+    /* Add margin to the top and bottom of the button */
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.arrowIcon {
+    margin-left: 60px;
+    font-size: 1rem;
+}
+
+.description {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.extra {
+    display: none;
+}
+
+/* Media Query for Tablets */
+@media screen and (max-width: 768px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .extra {
+        display: block;
+    }
+
+    .extra h1 {
+        font-size: 2rem;
+    }
+    .extraButton{
+        width: 150px;
+        background-color: transparent;
+        padding: 5px;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin: 20px 0;
+    }
+    
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .extra {
+        display: block;
+    }
+
+    .extra h1 {
+        font-size: 2rem;
+    }
+    .extraButton{
+        width: 150px;
+        background-color: transparent;
+        padding: 5px;
+        border: 2px solid white;
+        color: white;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin: 20px 0;
+    }
+}
