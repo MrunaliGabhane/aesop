@@ -1,0 +1,84 @@
+/* src/components/Navbar.module.css */
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-weight: 500;
+  color: black;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+}
+
+.hamburgerMenu {
+  display: none; /* Hidden by default on larger screens */
+  margin-right: 20px;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.rightLinks {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.rightLinks li {
+  margin-right: 20px;
+}
+
+.searchIcon {
+  color: gray; /* Set the color to gray */
+  font-size: 20px; /* Adjust the font size as needed */
+  margin-left: 10px; /* Add some spacing between the icon and the navigation items */
+}
+
+/* Media Query for smaller screens (e.g., tablets and mobile) */
+@media screen and (max-width: 768px) {
+  .hamburgerMenu {
+    display: block;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .navLinks.open {
+    transform: translateX(0);
+  }
+
+  .navLinks li {
+    margin-bottom: 10px;
+  }
+}
