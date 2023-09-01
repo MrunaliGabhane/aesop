@@ -5,11 +5,13 @@ import TopImage from "./Components/TopImage/TopImage";
 import { WarnUp } from "./Components/WarmUp/WarnUp";
 import { PostPoo } from "./Components/PostPoo/PostPoo";
 import { Thought } from "./Components/Thought/Thought";
+import { TopNavbar } from "./Components/TopNavbar/TopNavbar";
 
 
 function App() {
   return (
     <div className="App">
+      <TopNavbar/>
       <Navbar />
       <TopImage />
       <WarnUp />

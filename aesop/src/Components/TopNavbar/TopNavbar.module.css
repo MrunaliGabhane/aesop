@@ -1,0 +1,16 @@
+.firstTop{
+    background: #c2c2af;
+    color: black;
+}
+.firstTop p{
+    text-align: center;
+    padding: 7px;
+}
+.secondTop{
+    background: #252525;
+    color: aliceblue;
+}
+.secondTop p{
+    text-align: center;
+    padding: 7px;
+}
