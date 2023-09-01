@@ -6,6 +6,8 @@ import { WarnUp } from "./Components/WarmUp/WarnUp";
 import { PostPoo } from "./Components/PostPoo/PostPoo";
 import { Thought } from "./Components/Thought/Thought";
 import { TopNavbar } from "./Components/TopNavbar/TopNavbar";
+import Carousel from "./Components/text/Carousel";
+import { StoreLocator } from "./Components/StoreLocator/StoreLocator";
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <WarnUp />
       <PostPoo />
       <Thought/>
+     <StoreLocator/>
     </div>
   );
 }
