@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: white;
 }
 
 .second {
@@ -104,7 +105,6 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-top: 250px;
     }
 
     .second {
@@ -209,7 +209,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        margin-top: 350px;
+       
     }
 
     .second {

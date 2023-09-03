@@ -6,13 +6,8 @@ import { WarnUp } from "./Components/WarmUp/WarnUp";
 import { PostPoo } from "./Components/PostPoo/PostPoo";
 import { Thought } from "./Components/Thought/Thought";
 import { TopNavbar } from "./Components/TopNavbar/TopNavbar";
-
 import { StoreLocator } from "./Components/StoreLocator/StoreLocator";
 import Footer from "./Components/Footer/Footer";
-
-
-
-
 
 function App() {
   return (
@@ -21,12 +16,10 @@ function App() {
       <Navbar />
       <TopImage />
       <WarnUp />
+      <StoreLocator />
       <PostPoo />
       <Thought />
-      <StoreLocator />
       <Footer />
-     
-   
     </div>
   );
 }

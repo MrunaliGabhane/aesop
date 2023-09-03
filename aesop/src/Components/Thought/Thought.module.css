@@ -1,16 +1,16 @@
 .main {
     width: 100%;
-    margin: auto;
     background-color: whitesmoke;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: black;
+    padding-top: 180px;
 }
 
 .thought {
-    margin-top: 150px;
+  
     font-size: 1.875rem;
     font-weight: 400;
 
@@ -20,4 +20,10 @@
     font-size: 0.875rem;
     font-weight: bold;
     margin: 10px 0px 0px 0px;
+}
+@media screen and (max-width: 480px){
+    .main{
+        height: 300px;
+        padding-top: 60px;
+    }
 }
