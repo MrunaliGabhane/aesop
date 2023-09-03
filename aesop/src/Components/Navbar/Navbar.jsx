@@ -1,7 +1,7 @@
 // src/components/Navbar.js
-import React, { useState } from 'react';
-import HamburgerMenu from 'react-hamburger-menu';
-import { FaSearch } from 'react-icons/fa'; // Import the search icon
+import React, { useState } from "react";
+import HamburgerMenu from "react-hamburger-menu";
+import { FaSearch } from "react-icons/fa"; // Import the search icon
 import styles from "../Navbar/Navbar.module.css"; // Import CSS Modules
 
 const Navbar = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
             color="gray"
           />
         </div>
-        <ul className={`${styles.navLinks} ${isOpen ? styles.open : ''}`}>
+        <ul className={`${styles.navLinks} ${isOpen ? styles.open : ""}`}>
           <li>Skin Care</li>
           <li>Body & Hand</li>
           <li>Hair</li>

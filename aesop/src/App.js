@@ -6,20 +6,27 @@ import { WarnUp } from "./Components/WarmUp/WarnUp";
 import { PostPoo } from "./Components/PostPoo/PostPoo";
 import { Thought } from "./Components/Thought/Thought";
 import { TopNavbar } from "./Components/TopNavbar/TopNavbar";
-import Carousel from "./Components/text/Carousel";
+
 import { StoreLocator } from "./Components/StoreLocator/StoreLocator";
+import Footer from "./Components/Footer/Footer";
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <TopNavbar/>
+      <TopNavbar />
       <Navbar />
       <TopImage />
       <WarnUp />
       <PostPoo />
-      <Thought/>
-     <StoreLocator/>
+      <Thought />
+      <StoreLocator />
+      <Footer />
+     
+   
     </div>
   );
 }

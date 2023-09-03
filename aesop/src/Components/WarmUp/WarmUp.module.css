@@ -1,176 +1,202 @@
-.maindiv{
-    
-    background-color: whitesmoke;
-    color: black;
+.maindiv {
+
+  background-color: whitesmoke;
+  color: black;
 }
-.childdiv{
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 150px 0 120px 0;
-    background-color: whitesmoke;
+
+.childdiv {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 150px 0 120px 0;
+  background-color: whitesmoke;
 }
-.leftdiv{
-    width: 506px;
-    height: 506px;
-    padding: 0 0 0 80px;
+
+.leftdiv {
+  width: 506px;
+  height: 506px;
+  padding: 0 0 0 80px;
 
 }
-.leftdiv p{
-    margin: 0px 0px 20px;
-    color: #333333;
-    font-size: 16px;
-    padding: 15px 0px 15px 0px;
+
+.leftdiv p {
+  margin: 0px 0px 20px;
+  color: #333333;
+  font-size: 16px;
+  padding: 15px 0px 15px 0px;
 
 }
-.leftdiv h1{
-    font-size: 45px;
-    color: #333333;
-    margin: -20px 0px 0px -10px;
-    font-weight: 200;
+
+.leftdiv h1 {
+  font-size: 45px;
+  color: #333333;
+  margin: -20px 0px 0px -10px;
+  font-weight: 200;
 }
-.leftdiv button{
-    height: 60px;
-    width: 300px;
-    border: 1px solid #333333;
-    margin: 0px -0.5px 20px;
-    font-size: 14px;
-    padding: 19px 55px 19px 23px;
-    display: flex;
+
+.leftdiv button {
+  height: 60px;
+  width: 300px;
+  border: 1px solid #333333;
+  margin: 0px -0.5px 20px;
+  font-size: 14px;
+  padding: 19px 55px 19px 23px;
+  display: flex;
 }
-.arrowIcon{
-    margin: 4px 0px 0px 80px;
-    color: #333333;
+
+.arrowIcon {
+  margin: 4px 0px 0px 80px;
+  color: #333333;
 }
-.rightdiv{
-    width: 1012px;
-    height: 506px;
-    padding: 0 0 0 80px;
+
+.rightdiv {
+  width: 1012px;
+  height: 506px;
+  padding: 0 0 0 80px;
 }
-.rightdiv img{
-    width: 932px;
-    height: 498px;
+
+.rightdiv img {
+  width: 932px;
+  height: 498px;
 }
 
 /* Media Query for Tablets */
 @media screen and (max-width: 768px) {
-    
-    .maindiv {
-        padding: 20px 0;
-      }
-      
-      .childdiv {
-        
-        flex-direction: column; /* Change flex direction for responsiveness */
-        padding: 40px 0px;
-        box-sizing: border-box;
-      }
-      
-      .leftdiv {
-        width: 100%; /* Adjust the width for responsiveness */
-        text-align: center; /* Center the content for mobile and tablet */
-        padding: 0;
-        height: 280px;
-      }
-      
-      .leftdiv p {
-        margin: 20px 0; /* Add margin for spacing */
-        color: #333333;
-        font-size: 16px;
-        padding: 0;
-      }
-      
-      .leftdiv h1 {
-        font-size: 24px; /* Adjust the font size for mobile and tablet */
-        color: #333333;
-        font-weight: 200;
-        margin: 0;
-      }
-      
-      .leftdiv button {
-        width: 90%; /* Adjust the width for responsiveness */
-        border: 1px solid #333333;
-        margin: auto;
-        font-size: 14px;
-        padding: 15px 25px;
-      }
-      
-      .arrowIcon {
-        display: inline; 
-        margin-left: 100px;
-      }
-      
-      .rightdiv {
-        width: 100%; /* Adjust the width for responsiveness */
-        text-align: center; /* Center the content for mobile and tablet */
-        padding: 0;
-        height: 280px;
-      }
-      
-      .rightdiv img {
-        width: 100%; /* Adjust the width for responsiveness */
-        height: auto;
-      }
+
+  .maindiv {
+    padding: 20px 0;
   }
-  
-  /* Media Query for Mobile Devices */
-  @media screen and (max-width: 480px) {
-    
-    .maindiv {
-        padding: 10px 0;
-      }
-      
-      .childdiv {
-        
-        flex-direction: column; /* Change flex direction for responsiveness */
-        padding: 20px 0px;
-        box-sizing: border-box;
-      }
-      
-      .leftdiv {
-        width: 100%; /* Adjust the width for responsiveness */
-        text-align: center; /* Center the content for mobile and tablet */
-        padding: 0;
-        height: 280px;
-      }
-      
-      .leftdiv p {
-        margin: 20px 0; /* Add margin for spacing */
-        color: #333333;
-        font-size: 16px;
-        padding: 0;
-      }
-      
-      .leftdiv h1 {
-        font-size: 20px; /* Adjust the font size for mobile and tablet */
-        color: #333333;
-        font-weight: 200;
-        margin: 0;
-      }
-      
-      .leftdiv button {
-        width: 90%; /* Adjust the width for responsiveness */
-        height: auto;
-        border: 1px solid #333333;
-        margin: 20px 20px;
-        font-size: 14px;
-        padding: 15px 15px;
-      }
-      
-      .arrowIcon {
-        display: inline; 
-        margin-left: 100px;
-      }
-      
-      .rightdiv {
-        width: 100%; /* Adjust the width for responsiveness */
-        text-align: center; /* Center the content for mobile and tablet */
-        padding: 0;
-        height: 220px;
-      }
-      
-      .rightdiv img {
-        width: 100%; /* Adjust the width for responsiveness */
-        height: auto;
-      }
+
+  .childdiv {
+
+    flex-direction: column;
+    /* Change flex direction for responsiveness */
+    padding: 40px 0px;
+    box-sizing: border-box;
   }
+
+  .leftdiv {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    text-align: center;
+    /* Center the content for mobile and tablet */
+    padding: 0;
+    height: 280px;
+  }
+
+  .leftdiv p {
+    margin: 20px 0;
+    /* Add margin for spacing */
+    color: #333333;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .leftdiv h1 {
+    font-size: 24px;
+    /* Adjust the font size for mobile and tablet */
+    color: #333333;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  .leftdiv button {
+    width: 90%;
+    /* Adjust the width for responsiveness */
+    border: 1px solid #333333;
+    margin: auto;
+    font-size: 14px;
+    padding: 15px 25px;
+  }
+
+  .arrowIcon {
+    display: inline;
+    margin-left: 100px;
+  }
+
+  .rightdiv {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    text-align: center;
+    /* Center the content for mobile and tablet */
+    padding: 0;
+    height: 280px;
+  }
+
+  .rightdiv img {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    height: auto;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 480px) {
+
+  .maindiv {
+    padding: 10px 0;
+  }
+
+  .childdiv {
+
+    flex-direction: column;
+    /* Change flex direction for responsiveness */
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+
+  .leftdiv {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    text-align: center;
+    /* Center the content for mobile and tablet */
+    padding: 0;
+    height: 280px;
+  }
+
+  .leftdiv p {
+    margin: 20px 0;
+    /* Add margin for spacing */
+    color: #333333;
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .leftdiv h1 {
+    font-size: 20px;
+    /* Adjust the font size for mobile and tablet */
+    color: #333333;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  .leftdiv button {
+    width: 90%;
+    /* Adjust the width for responsiveness */
+    height: auto;
+    border: 1px solid #333333;
+    margin: 20px 20px;
+    font-size: 14px;
+    padding: 15px 15px;
+  }
+
+  .arrowIcon {
+    display: inline;
+    margin-left: 100px;
+  }
+
+  .rightdiv {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    text-align: center;
+    /* Center the content for mobile and tablet */
+    padding: 0;
+    height: 220px;
+  }
+
+  .rightdiv img {
+    width: 100%;
+    /* Adjust the width for responsiveness */
+    height: auto;
+  }
+}

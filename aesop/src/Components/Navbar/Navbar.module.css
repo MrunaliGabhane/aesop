@@ -17,7 +17,8 @@
 }
 
 .hamburgerMenu {
-  display: none; /* Hidden by default on larger screens */
+  display: none;
+  /* Hidden by default on larger screens */
   margin-right: 20px;
 }
 
@@ -49,9 +50,12 @@
 }
 
 .searchIcon {
-  color: gray; /* Set the color to gray */
-  font-size: 20px; /* Adjust the font size as needed */
-  margin-left: 10px; /* Add some spacing between the icon and the navigation items */
+  color: gray;
+  /* Set the color to gray */
+  font-size: 20px;
+  /* Adjust the font size as needed */
+  margin-left: 10px;
+  /* Add some spacing between the icon and the navigation items */
 }
 
 /* Media Query for smaller screens (e.g., tablets and mobile) */
